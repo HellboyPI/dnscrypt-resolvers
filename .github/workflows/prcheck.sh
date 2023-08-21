@@ -74,7 +74,7 @@ if [ ! -s "$NEW_ENTRIES" ]; then
     exit 0
 fi
 
-curl -qL https://github.com/jedisct1/dnscrypt-proxy/releases/download/2.1.1/dnscrypt-proxy-linux_x86_64-2.1.1.tar.gz | tar xzvf -
+curl -qL https://github.com/jedisct1/dnscrypt-proxy/releases/download/2.1.3/dnscrypt-proxy-linux_x86_64-2.1.3.tar.gz | tar xzvf -
 cd linux-x86_64 || exit 1
 
 exit_code=0
@@ -92,6 +92,7 @@ while read -r stamp; do
 
     {
         echo 'listen_addresses = ["127.0.0.1:5300"]'
+        echo 'http3 = true'
         echo 'server_names = ["test"]'
         echo '[static."test"]'
         echo "stamp = '${stamp}'"

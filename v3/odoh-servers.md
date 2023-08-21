@@ -30,6 +30,13 @@ Backend hosted by Scaleway. Maintained by Frank Denis.
 sdns://BQcAAAAAAAAADm9kb2guY3J5cHRvLnN4Ci9kbnMtcXVlcnk
 
 
+## odoh-ibksturm
+
+ODoH target server hosted by Ibksturm. No logs, No Filter, DNSSEC.
+
+sdns://BQcAAAAAAAAAFGlia3N0dXJtLnN5bm9sb2d5Lm1lCi9kbnMtcXVlcnk
+
+
 ## odoh-id-gmail
 
 ODoH target server. Based in Singapore, no logs.
@@ -59,11 +66,18 @@ Oblivious DoH target server in The Netherlands. No logs, No filter, DNSSEC.
 sdns://BQcAAAAAAAAAGG9kb2gtdGFyZ2V0LmFsZWtiZXJnLm5ldAovZG5zLXF1ZXJ5
 
 
-## odoh-koki-es
+## odoh-koki-noads-ams
 
-Oblivious DoH target server in Spain. No logs, No filter, DNSSEC.
+Oblivious DoH target server in The Netherlands. No logs, filter ads and malware, DNSSEC.
 
-sdns://BQcAAAAAAAAAG29kb2gtdGFyZ2V0LWVzLmFsZWtiZXJnLm5ldAovZG5zLXF1ZXJ5
+sdns://BQMAAAAAAAAAHm9kb2gtdGFyZ2V0LW5vYWRzLmFsZWtiZXJnLm5ldAovZG5zLXF1ZXJ5
+
+
+## odoh-koki-noads-se
+
+Oblivious DoH target server in Sweden. No logs, filter ads and malware, DNSSEC.
+
+sdns://BQMAAAAAAAAAIW9kb2gtdGFyZ2V0LW5vYWRzLXNlLmFsZWtiZXJnLm5ldAovZG5zLXF1ZXJ5
 
 
 ## odoh-koki-se
@@ -73,15 +87,12 @@ Oblivious DoH target server in Sweden. No logs, No filter, DNSSEC.
 sdns://BQcAAAAAAAAAG29kb2gtdGFyZ2V0LXNlLmFsZWtiZXJnLm5ldAovZG5zLXF1ZXJ5
 
 
-## odoh-resolver4.dns.openinternet.io
+## odoh-marco.cx
 
-ODoH target server. no logs, no filter, DNSSEC.
-Running on dedicated hardware colocated at Sonic.net in Santa Rosa, CA in the United States.
+ODoH target server by marco.cx.
+Warning: uses Cloudflare resolver.
 
-Uses Sonic's recusrive DNS servers as upstream resolvers (but is not affiliated with Sonic
-in any way). Provided by https://openinternet.io
-
-sdns://BQcAAAAAAAAAHXJlc29sdmVyNC5kbnMub3BlbmludGVybmV0LmlvCi9kbnMtcXVlcnk
+sdns://BQcAAAAAAAAAE29kb2gtcmVsYXkubWFyY28uY3gKL2Rucy1xdWVyeQ
 
 
 ## odoh-tiarap.org

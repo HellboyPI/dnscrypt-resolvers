@@ -20,6 +20,13 @@ To use that list, add this to the `[sources]` section of your `dnscrypt-proxy.to
 --
 
 
+## odohrelay-ams
+
+Oblivious DoH relay in The Netherlands. No logs.
+
+sdns://hQcAAAAAAAAADDg5LjM4LjEzMS4zOAAYb2RvaC1ubC5hbGVrYmVyZy5uZXQ6NDQzBi9wcm94eQ
+
+
 ## odohrelay-crypto-sx
 
 Oblivious DoH relay running on Fastly Compute@Edge.
@@ -28,34 +35,9 @@ Maintained by Frank Denis.
 sdns://hQcAAAAAAAAAACCi3jNJDEdtNW4tvHN8J3lpIklSa2Wrj7qaNCgEgci9_BpvZG9oLXJlbGF5LmVkZ2Vjb21wdXRlLmFwcAEv
 
 
-## odohrelay-koki-ams
+## odohrelay-marco.cx
 
-Oblivious DoH relay in The Netherlands. No logs.
-Maintained by @kokial
+Oblivious DoH relay by marco.cx - https://odoh-relay.marco.cx
 
-sdns://hQcAAAAAAAAADTUxLjE1LjEyNC4yMDgAGG9kb2gtbmwuYWxla2JlcmcubmV0OjQ0MwYvcHJveHk
-
-
-## odohrelay-koki-bcn
-
-Oblivious DoH relay in Spain. No logs.
-Maintained by @kokial
-
-sdns://hQcAAAAAAAAADjE4NS4yNTMuMTU0LjY2ABhvZG9oLWVzLmFsZWtiZXJnLm5ldDo0NDMGL3Byb3h5
-
-
-## odohrelay-koki-se
-
-Oblivious DoH relay in Sweden. No logs.
-Maintained by @kokial
-
-sdns://hQcAAAAAAAAADTQ1LjE1My4xODcuOTYAGG9kb2gtc2UuYWxla2JlcmcubmV0OjQ0MwYvcHJveHk
-
-
-## odohrelay-surf
-
-SURFdomeinen oblivious DoH relay.
-https://www.surf.nl
-
-sdns://hQcAAAAAAAAACjE0NS4wLjYuNTMgEbEC5rH2PlKJhNYCXzKxOCQfyIu9dRlXTXDJgy1T4egVb2RvaDEuc3VyZmRvbWVpbmVuLm5sBi9wcm94eQ
+sdns://BQcAAAAAAAAAE29kb2gtcmVsYXkubWFyY28uY3gKL2Rucy1xdWVyeQ
 
